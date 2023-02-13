@@ -1,0 +1,454 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    position: relative;
+    overflow-x: hidden;
+    width:100%;
+    height: 100vh;
+    left: 0;
+}
+
+.side-bar-container h1{
+    font-size: 2.5rem;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top:20px
+}
+.logo-doceria{
+    position: relative;
+    top:20px
+}
+
+.side-bar-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    gap: 20px;
+    width: 236px;
+    height: 121vh;
+    background-color: cadetblue;
+    border: 3px dashed whitesmoke;
+}
+.content{
+    position: relative;
+    left: 242.5px;
+    width: 79.5%;
+    height: 1050px;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+ul li{
+   padding-top: 18px;
+   padding-bottom: 18px;
+  
+}
+ .a1::after{
+    content: "";
+    width: 10px;
+    border-bottom: 3px solid rgb(243, 237, 237);
+    display: block;
+    position: relative;
+    border-radius: 10%;
+    transition: 1s;
+    opacity: 1;
+}
+.a2::after{
+    content: "";
+    width:10px;
+    border-bottom: 3px solid rgb(243, 237, 237);
+    display: block;
+    position: relative;
+    border-radius: 10%;
+    transition: 1s;
+    opacity: 1;
+}
+.a3::after{
+    content: "";
+    width:10px;
+    border-bottom: 2.8px solid rgb(243, 237, 237);
+    display: block;
+    position: relative;
+    border-radius: 10%;
+    box-sizing: border-box;
+    transition: 1s;
+    opacity: 1;
+}
+.a4::after{
+    content: "";
+    width:10px;
+    border-bottom: 3px solid rgb(243, 237, 237);
+    display: block;
+    position: relative;
+    border-radius: 10%;
+    transition: 1s;
+    opacity: 1;
+}
+ .a5::after{
+    content: "";
+    width:10px;
+    border-bottom: 3px solid rgb(243, 237, 237);
+    background-color: black;
+    display: block;
+    position: relative;
+    border-radius: 10%;
+    transition: 1s;
+    opacity: 1;
+}
+.a6::after{
+    content: "";
+    width:10px;
+    border-bottom: 2.8px solid rgb(243, 237, 237);
+    display: block;
+    position: relative;
+    border-radius: 10%;
+    transition: 2s;
+    opacity: 1;
+   
+}
+/*border dinamic*/
+.a1:hover::after{
+    width:87px ;
+    position:relative;
+    opacity: 1;
+    border-color: rgb(104, 98, 98);
+}
+.a2:hover::after{
+    width:75px ;
+    position:relative;
+    opacity: 1;
+    border-color: rgb(104, 98, 98);
+}
+.a3:hover::after{
+    width:50px ;
+    position:relative;
+    opacity: 1;
+    border-color: rgb(104, 98, 98);
+}
+.a4:hover::after{
+    width:50px ;
+    position:relative;
+    opacity: 1;
+    border-color: rgb(104, 98, 98);
+}
+.a5:hover::after{
+    width:50px ;
+    position:relative;
+    opacity: 1;
+    border-color: rgb(104, 98, 98);
+}
+.a6:hover::after{
+    width:130px ;
+    position:relative;
+    opacity: 1;
+    border-color: rgb(104, 98, 98);
+}
+/* @media screen and (max-width:360px) {
+    .side-bar-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 136px;
+        height: 564px;
+        position: relative;
+        background-color: rgb(247, 9, 9);
+        border: 3px dashed whitesmoke;
+    }
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+} */
+/* sessao bem-vindo*/
+.content .h1-title-contente{
+    text-align: center;
+    font-size: 35px;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: serif;
+    text-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+.titulo-bemvindo{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-family: serif;
+    text-align: center;
+    
+}
+.main-banner{
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.text{
+    display: block;
+    position: relative;
+    top: 30px;
+    text-align: left;
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.03);
+    border-radius: 20px;
+   
+}
+
+.content-texto{
+    width: 90%;
+
+    margin: auto;
+    
+}
+
+.text-secundary-1,.text-secundary-2{
+    display: flex;
+    padding: 20px;
+    width:95%;
+    font-family: serif;
+    font-size: 20px;
+    
+}
+
+
+.content-texto h2{
+    position: relative;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 15px 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+
+#sessao-sobre .img-2{
+    display: flex;
+    position: relative;
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+ 
+}
+
+
+/* sessão sobre*/
+#sessao-sobre{
+    position: relative;
+    left: 242.5px;
+    width: 79.5%;
+    font-family: serif;
+}
+
+.titulo-sobre{
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.text-sobre {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+   
+}
+#sessao-sobre .text-sobre p {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 80%;
+    font-size: 20px;
+   
+}
+
+/* sessão doce 1*/
+
+#sessao-doce1{
+    position: relative;
+    left: 242.5px;
+    width: 79.5%;
+    font-family: serif;   
+}
+
+.titulo-doce-1{
+    font-size: 35px;
+    font-family: serif;
+    text-align: center;
+}
+
+.content-img-sessao-doce-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.titulo-doce-1{
+    padding-top: 10px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.content-img-sessao-doce-1 img{
+    padding: 5px;
+}
+
+.texto-sessao-doce-1 p{
+    position: relative;
+    padding-top: 20px;
+    width: 80%;
+    font-size: 20px;
+    font-family: serif;
+    text-align: left;
+   
+}
+.texto-sessao-doce-1{
+    display: flex;
+    justify-content: center;
+    
+}
+/* sessão doce 2*/
+.titulo-sessao-doce-2{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+}
+.sessao-doce-2{
+    position: relative;
+    left: 242.5px;
+    width: 79.5%;
+    font-family: serif;  
+}
+.content-img-sessao-doce-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-img-sessao-doce-2 img{
+    margin-bottom: 10px;
+}
+
+.content-img-sessao-doce-2 .titulo-img{
+    position: relative;
+    padding-bottom: 10px ;
+    font-size: 25px;
+}
+/* sessão doce 3*/
+.titulo-sessao-doce-3{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sessao-doce-3{
+    position: relative;
+    left: 242.5px;
+    width: 79.5%;
+    font-family: serif;  
+}
+
+.content-img-sessao-doce-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-img-sessao-doce-3 img{
+    padding: 10px;
+}
+.text-sessao-doce-3 {
+    display: flex;
+    justify-content: center;
+}
+.text-sessao-doce-3 p{
+    width: 80%;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin-top: 100px;
+    background-color: rgb(66, 78, 78);
+    bottom: 1px;
+    opacity: 0.8;
+}
+
+.footer{
+    display: flex;
+  justify-content: space-between;
+}
+
+.zap{
+    position: relative;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.copy{
+    position:relative;
+    padding-top: 22px;
+    color: whitesmoke;
+}
+
+/* responsividade */
+
+@media screen and (max-width:360px){
+    body{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .side-bar-container{
+        position: relative;
+        display: none;
+        gap: 0px;
+        width: 0px;
+    
+    }
+    .content{
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    #sessao-sobre{
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    #sessao-doce1{
+        position: relative;
+        left: 0; 
+        width: 100%;
+    }
+    #sessao-doce2{
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+
+    #sessao-doce3{
+        position: relative;
+        left: 0;
+        width: 100%;
+    }
+    #sessao-sobre .img-2{
+        height: 300px;
+    }
+  
+}
